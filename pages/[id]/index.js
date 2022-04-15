@@ -72,8 +72,8 @@ const MyNote = ({ note }) => {
         <div className="container">
             <h1>My Individual note</h1>
             {isDeleting ?
-                <div class="spinner-border" role="status">
-                    <span class="visually-hidden">Loading...</span>
+                <div className="spinner-border" role="status">
+                    <span className="visually-hidden">Loading...</span>
                 </div>
                 :
                 <div>
